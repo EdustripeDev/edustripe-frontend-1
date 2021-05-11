@@ -16,7 +16,7 @@
     "cross-env": "^7.0.2",
     "dayjs": "1.8.28",
     "esm": "^3.2.25",
-    "next": "^9.4.4",
+    "next": "^10.0.3",
     "next-images": "^1.6.2",
     "postcss-preset-env": "6.7.0",
     "rc-resize-observer": "^0.3.0",
