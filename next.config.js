@@ -7,6 +7,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = {
+  future: {
+    webpack5: false,
+  },
   withBundleAnalyzer: withBundleAnalyzer(),
   withImages: withImages({
   exclude: path.resolve(__dirname, "public/images/svg"),
